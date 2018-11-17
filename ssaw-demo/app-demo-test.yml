@@ -51,10 +51,6 @@ spring:
       remove-abandoned: true
       remove-abandoned-timeout: 1800
       log-abandoned: false
-  cloud:
-    config:
-      username: admin
-      password: 521428Slyt
 
 
 
