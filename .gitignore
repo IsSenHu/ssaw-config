@@ -14,8 +14,13 @@
 .idea
 *.iws
 *.iml
+<<<<<<< HEAD
+*/*.iml
+*.ipr
+=======
 *.ipr
 ssaw-config.iml
+>>>>>>> 52577d704b1b7d31f4361ef04c03313931edc5e2
 
 ### NetBeans ###
 /nbproject/private/
@@ -25,6 +30,9 @@ ssaw-config.iml
 /nbdist/
 /.nb-gradle/
 
+<<<<<<< HEAD
+**/target/
+=======
 # Compiled class file
 *.class
 
@@ -48,3 +56,4 @@ ssaw-config.iml
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+>>>>>>> 52577d704b1b7d31f4361ef04c03313931edc5e2
