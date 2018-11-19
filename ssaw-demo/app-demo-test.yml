@@ -1,4 +1,4 @@
-from: git-test-3.0
+from: git-test-2.0
 server:
   port: 20001
   tomcat:
