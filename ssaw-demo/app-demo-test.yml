@@ -19,6 +19,15 @@ spring:
     password: 521428
     virtual-host: /
 
+  sleuth:
+    web:
+      client:
+        enabled: true
+    sampler:
+      probability: 1.0
+    zipkin:
+      base-url: http://localhost:17004/
+
   datasource:                 #数据源配置
     name: ssaw_demo
 #    url: jdbc:mysql://127.0.0.1:3306/ssaw_demo?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
