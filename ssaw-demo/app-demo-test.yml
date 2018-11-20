@@ -31,7 +31,7 @@ spring:
   datasource:                 #数据源配置
     name: ssaw_demo
 #    url: jdbc:mysql://127.0.0.1:3306/ssaw_demo?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
-    url: jdbc:mysql://192.168.137.80:3306/ssaw_demo?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://www.senhu.com:3306/ssaw_demo?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: 521428
     type: com.alibaba.druid.pool.DruidDataSource
