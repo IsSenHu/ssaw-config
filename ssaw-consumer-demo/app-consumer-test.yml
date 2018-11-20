@@ -19,7 +19,7 @@ ribbon:                       #ribbon配置（Feign的实现基于Ribbon，因�
 spring:
   application:
     name: ssaw-demo-consumer
-    
+
   sleuth:
     web:
       client:
