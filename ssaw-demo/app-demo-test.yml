@@ -33,7 +33,7 @@ spring:
 #    url: jdbc:mysql://127.0.0.1:3306/ssaw_demo?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
     url: jdbc:mysql://www.senhu.com:3306/ssaw_demo?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
     username: root
-    password: 521428
+    password: 521428Slly
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
     druid:
