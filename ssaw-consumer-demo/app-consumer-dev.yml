@@ -19,6 +19,22 @@ ribbon:                       #ribbon配置（Feign的实现基于Ribbon，因�
 spring:
   application:
     name: ssaw-demo-consumer
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: husen
+    password: 521428
+    virtual-host: /
+  sleuth:
+    web:
+      client:
+        enabled: true
+    sampler:
+      probability: 1.0
+  zipkin:
+#    base-url: http://localhost:17004/
+    sender:
+      type: rabbit
 
 feign:
   hystrix:
