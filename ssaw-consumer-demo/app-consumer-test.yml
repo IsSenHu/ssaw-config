@@ -28,7 +28,9 @@ spring:
       probability: 1.0
 
   zipkin:
-    base-url: http://localhost:17004/
+#    base-url: http://localhost:17004/
+    sender:
+      type: rabbit
 
 feign:
   hystrix:
