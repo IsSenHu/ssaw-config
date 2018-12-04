@@ -39,5 +39,9 @@ spring:
 
 feign:
   hystrix:
-    enabled: true
+    enabled: false
+
+feign:
+  httpclient:
+    connection-timeout: 10000
 
