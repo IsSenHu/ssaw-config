@@ -62,13 +62,6 @@ spring:
     port: 6379
     password: 521428Slyt
     database: 15
-    
-eureka:
-  client:
-    service-url:
-      defaultZone: http://admin:14780118635@118.24.38.46:10001/eureka/
-  instance:
-    prefer-ip-address: true
 
 statistical:                                   #可用认证中心服务配置，认证中心必须通过校验才能访问本系统的资源
   certification:
