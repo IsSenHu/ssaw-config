@@ -92,5 +92,5 @@ inner:
         ant-matchers: /api/user/get/*,/api/user/page
         scope: USER_READ
       user-save:
-        ant-matchers: /api/user/save
+        ant-matchers: /api/user/save,/api/user/delete/*
         scope: USER_WRITE
