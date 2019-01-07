@@ -34,7 +34,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
-      filters: mergeStat,config,slf4j
+      filters: mergeStat,clientConfigMap,slf4j
       max-active: 10000
       initial-size: 2
       max-wait: 60000
@@ -72,3 +72,23 @@ statistical:                                   #可用认证中心服务配置�
       resource-ids: SSAW-USER-RESOURCE
       authorized-grant-types: authorization_code,refresh_token
       scopes: USER_READ,ROLE_READ,USER_WRITE,ROLE_WRITE,USER_ROLE_WRITE
+
+inner:
+  security:
+    client-config:
+      authenticate-center:
+        client-id: StatisticalCertificationCenter
+        secret: 521428Slyp!
+        redirect-urls: http://baidu.com
+        resource-ids: SSAW-USER-RESOURCE
+        authorized-grant-types: authorization_code,refresh_token
+        scopes: USER_READ,ROLE_READ,USER_WRITE,ROLE_WRITE,USER_ROLE_WRITE
+    resource-ant-matchers: /api/**
+    resource-id: SSAW-USER-RESOURCE
+    resource-config:
+      user-query:
+        ant-matchers: /api/user/get/*,/api/user/page
+        scope: USER_READ
+      user-save:
+        ant-matchers: /api/user/save
+        scope: USER_WRITE

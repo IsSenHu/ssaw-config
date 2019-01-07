@@ -34,7 +34,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
-      filters: mergeStat,config,slf4j
+      filters: mergeStat,clientConfigMap,slf4j
       max-active: 10000
       initial-size: 2
       max-wait: 60000

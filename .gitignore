@@ -16,7 +16,7 @@
 *.iml
 */*.iml
 *.ipr
-ssaw-config.iml
+ssaw-clientConfigMap.iml
 
 ### NetBeans ###
 /nbproject/private/

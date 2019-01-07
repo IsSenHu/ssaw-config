@@ -1,1 +1,1 @@
-# ssaw-config
+# ssaw-clientConfigMap
