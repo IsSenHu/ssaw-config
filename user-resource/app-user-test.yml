@@ -63,17 +63,13 @@ spring:
     password: 521428Slyt
     database: 15
 
-statistical:                                   #可用认证中心服务配置，认证中心必须通过校验才能访问本系统的资源
-  certification:
-    center:
-      id: StatisticalCertificationCenter
-      secret: 521428Slyt!
-      redirect-urls: http://baidu.com
-      resource-ids: SSAW-USER-RESOURCE
-      authorized-grant-types: authorization_code,refresh_token
-      scopes: USER_READ,ROLE_READ,USER_WRITE,ROLE_WRITE,USER_ROLE_WRITE
+feign:
+  hystrix:
+    enable: true
+  httpclient:
+    connection-timeout: 20000
 
-inner:
+inner:                                                                 #内部系统认证配置
   security:
     username: husen
     password: husen
