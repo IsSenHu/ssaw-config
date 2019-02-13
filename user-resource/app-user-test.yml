@@ -85,7 +85,7 @@ inner:                                                                 #内部�
     resource-id: SSAW-USER-RESOURCE
     resource-config:
       user-query:
-        ant-matchers: /api/user/get/*,/api/user/page
+        ant-matchers: /api/user/get/*,/api/user/page,/api/user/findById/*
         scope: USER_READ
       user-save:
         ant-matchers: /api/user/save,/api/user/delete/*

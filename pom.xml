@@ -8,6 +8,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>ssaw-clientConfigMap</name>
+    <name>ssaw-config</name>
     <description>统一管理配置的项目</description>
 </project>
