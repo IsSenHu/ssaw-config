@@ -93,6 +93,7 @@ inner:                                                                 #内部�
 
 ssaw:
   resource:
+    code: 1
     resource-id: ${inner.security.resource-id}
     description: 用户资源服务
     resource-config:
