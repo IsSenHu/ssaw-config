@@ -10,4 +10,13 @@
 
     <name>ssaw-config</name>
     <description>统一管理配置的项目</description>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>

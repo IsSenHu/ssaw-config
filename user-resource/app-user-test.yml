@@ -90,3 +90,15 @@ inner:                                                                 #内部�
       user-save:
         ant-matchers: /api/user/save,/api/user/delete/*
         scope: USER_WRITE
+
+ssaw:
+  resource:
+    resource-id: ${inner.security.resource-id}
+    description: 用户资源服务
+    resource-config:
+      user-query:
+        ant-matchers: ${inner.security.resource-config.user-query.ant-matchers}
+        scope: ${inner.security.resource-config.user-query.scope}
+      user-save:
+        ant-matchers: ${inner.security.resource-config.user-save.ant-matchers}
+        scope: ${inner.security.resource-config.user-save.scope}
